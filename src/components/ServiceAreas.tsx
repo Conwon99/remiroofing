@@ -85,14 +85,14 @@ const ServiceAreas = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="tel:+447305967999"
+                  href="tel:+447930951155"
                   onClick={() => trackPhoneCallClick('service_areas')}
                   className="inline-flex items-center justify-center px-6 py-3 bg-primary text-white rounded-full font-semibold hover:bg-primary/90 transition-colors"
                 >
-                  Call 07305 967999
+                  Call +44 7930 951155
                 </a>
                 <a
-                  href="https://wa.me/447305967999"
+                  href="https://wa.me/447930951155"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => trackWhatsAppClick('service_areas')}

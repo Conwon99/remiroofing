@@ -33,7 +33,7 @@ const ContactSection = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://formspree.io/f/xgvndlan', {
+      const response = await fetch('https://formspree.io/f/xnnoajkg', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -79,12 +79,12 @@ const ContactSection = () => {
 
   const handleCallClick = () => {
     trackPhoneCallClick('contact_section');
-    window.location.href = "tel:+447305967999";
+    window.location.href = "tel:+447930951155";
   };
 
   const handleMessengerClick = () => {
     trackWhatsAppClick('contact_section');
-    window.open("https://wa.me/447305967999", "_blank");
+    window.open("https://wa.me/447930951155", "_blank");
   };
 
   return (
